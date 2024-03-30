@@ -1,12 +1,54 @@
-
 *{
     margin: 0;
     padding: 0;
+    list-style-type: none;
     box-sizing: border-box;
+
+}
+header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(
+        circle,
+        #3a3b38,
+        #2f3230,
+        #262928,
+        #1e2020,
+        #161718
+    );
+    
+}
+header{
+    background: color #2a2a2a;
+    padding-top: 10px;
+
+}
+header>nav>ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.unico1{
+    cursor: pointer;
+    transition:  all ease-out 250ms;
+}
+.unico1:hover{
+    padding: 10px;
+    border-bottom: 3px solid rgb(224, 46, 105);
+}
+.unico2{
+    cursor: pointer;
+    transition: all ease-out 250ms;
+}
+.unico2:hover{
+    padding: 10px;
 }
 .padre1{
     background-color: rgb(41, 124, 41);
-    background-image: url("../images/profile_image.png");
+    background-image: url(../images/profile_image.png);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: 380px;
@@ -33,7 +75,7 @@ div{
     
 }
 .hijo{
-    background-image: url("../images/html_logo.png");
+    background-image: url(../images/html_logo.png);
     background-repeat: no-repeat;
     background-size: 160px;
     height: 195px;
@@ -41,14 +83,14 @@ div{
     
 }
 .hijo2{
-    background-image: url("../images/javascript_logo.png");
+    background-image: url(../images/javascript_logo.png);
     background-repeat: no-repeat;
     background-size: 150px;
     height: 200px;
     background-position: center;
 }
 .hijo3{
-    background-image: url("../images/react_logo.png");
+    background-image: url(../images/react_logo.png);
     background-repeat: no-repeat;
     background-size: 160px;
     height: 200px;
@@ -56,7 +98,7 @@ div{
 }
 .padre3{
     background-color: rgb(13, 13, 56);
-    background-image: url("../images/contacto.png");
+    background-image: url(../images/contacto.png);
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center;
