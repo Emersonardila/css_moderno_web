@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre1{
+    background-color: rgb(41, 124, 41);
+    background-image: url("../images/profile_image.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 380px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    gap: 5px;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+.padre2{
+    background-color: rgb(13, 13, 56);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hijo{
+    background-image: url("../images/html_logo.png");
+    background-repeat: no-repeat;
+    background-size: 160px;
+    height: 195px;
+    background-position: center;
+    
+}
+.hijo2{
+    background-image: url("../images/javascript_logo.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 200px;
+    background-position: center;
+}
+.hijo3{
+    background-image: url("../images/react_logo.png");
+    background-repeat: no-repeat;
+    background-size: 160px;
+    height: 200px;
+    background-position: center;
+}
+.padre3{
+    background-color: rgb(13, 13, 56);
+    background-image: url("../images/contacto.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.hijo4{
+    padding-bottom: 50px;
+}
